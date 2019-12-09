@@ -1,0 +1,19 @@
+.colors {
+    color: hsl(240, 78%, 98%);
+    color:  hsl(234, 14%, 74%);
+    color: hsl(233, 13%, 49%);
+    color: hsl(232, 13%, 33%);
+}
+
+
+
+
+
+/* Footer */
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
