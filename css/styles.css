@@ -80,7 +80,6 @@ body {
 
 
 /* Cards */
-
 .price {
     font-weight: 700;
     font-size: 4.0rem;
@@ -89,17 +88,30 @@ body {
     list-style-type: none;
     padding-inline-start: 0;
 }
-.btn {
+#card-center {
     background-image: linear-gradient(to right, hsl(236, 72%, 79%),hsl(237, 63%, 64%));
+}
+.btn {
+    background-image: linear-gradient(to right, #a3a8f0,#696fdd);
     border: none;
+    font-weight: 700;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    box-shadow:none!important;
 }
 #btn-center {
     background-color: white;
     background-image: none;
     color: linear-gradient(to right, hsl(236, 72%, 79%),hsl(237, 63%, 64%));
 }
-h3 {
-  background: -webkit-linear-gradient(#eee, #333);
+#btn-center:active {
+    background-image: linear-gradient(to right, #a3a8f0,#696fdd);
+    outline-color: white;
+    outline-style: solid;
+    border: 1px solid white;
+}
+button span {
+  background: -webkit-linear-gradient( #a3a8f0,#696fdd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
