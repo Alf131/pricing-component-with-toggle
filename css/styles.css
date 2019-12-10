@@ -9,13 +9,21 @@
 body {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: hsl(240, 78%, 98%);
+    
 }
-
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
 
 /* Main */
 
 .main {
     text-align: center;
+    width: 70%;
+    margin: auto;
+     
 }
 
 /* Toogle switch */
@@ -80,41 +88,71 @@ body {
 
 
 /* Cards */
+#card-center {
+  color: hsl(240, 78%, 98%)!important;
+  background-image: linear-gradient(to right, hsl(236, 72%, 79%),hsl(237, 63%, 64%));
+  border-radius: 5px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+.center-title {
+  padding-top: 20px;
+}
+.side-card {
+  margin-bottom: -5px;
+}
 .price {
-    font-weight: 700;
     font-size: 4.0rem;
+    color: hsl(232, 13%, 33%);
+}
+.card-body {
+  color: hsl(233, 13%, 49%);
 }
 .card-body ul {
     list-style-type: none;
     padding-inline-start: 0;
+    
 }
-#card-center {
-    background-image: linear-gradient(to right, hsl(236, 72%, 79%),hsl(237, 63%, 64%));
+.card-body ul li {
+  border-top: 1px solid;
+  padding: 20px 0px;
 }
+.card-body ul li:last-child {
+  border-bottom: 1px solid;
+}
+
 .btn {
     background-image: linear-gradient(to right, #a3a8f0,#696fdd);
     border: none;
     font-weight: 700;
 }
+#btn-side:active {
+  background-image: none;
+  background-color: white !important;
+  color: hsl(237, 63%, 64%);
+  outline-color: hsl(233, 13%, 49%);
+  outline-style: solid;
+  border: 1px solid hsl(233, 13%, 49%);
+  
+}
 .btn:focus, .btn:active:focus, .btn.active:focus{
     box-shadow:none!important;
+    background-color: white;
+    
 }
 #btn-center {
     background-color: white;
     background-image: none;
-    color: linear-gradient(to right, hsl(236, 72%, 79%),hsl(237, 63%, 64%));
+    color: hsl(237, 63%, 64%);
 }
 #btn-center:active {
     background-image: linear-gradient(to right, #a3a8f0,#696fdd);
     outline-color: white;
     outline-style: solid;
     border: 1px solid white;
+    color: white;
 }
-button span {
-  background: -webkit-linear-gradient( #a3a8f0,#696fdd);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 
 /* Footer */
 
