@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .colors {
     color: hsl(240, 78%, 98%);
     color:  hsl(234, 14%, 74%);
@@ -11,6 +14,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     background-color: hsl(240, 78%, 98%);
+    box-sizing: border-box;
     
 }
 h1, h2, h3, h4, h5 {
@@ -102,7 +106,7 @@ h1, h2, h3, h4, h5 {
   margin-bottom: -5px;
 }
 .price {
-    font-size: 4.0rem;
+    font-size: calc(0.8em + 3vw);
     color: hsl(232, 13%, 33%);
 }
 .card-body {
@@ -125,6 +129,9 @@ h1, h2, h3, h4, h5 {
     background-image: linear-gradient(to right, #a3a8f0,#696fdd);
     border: none;
     font-weight: 700;
+}
+#btn-side {
+  border: 1px solid white;
 }
 #btn-side:active {
   background-image: none;

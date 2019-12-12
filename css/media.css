@@ -1,0 +1,12 @@
+@media (max-width:800px) {
+    .card-group {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-group>.card {
+        margin-bottom: 50px;
+    }
+    .price {
+        font-size: calc(2.0em + 4vw);
+    }
+}
