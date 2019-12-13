@@ -13,8 +13,10 @@ body {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    background-color: hsl(240, 78%, 98%);
     box-sizing: border-box;
+    margin-top: 5%;
+    background: url('/images/bg-bottom.svg') bottom left, url('/images/bg-top.svg') top right hsl(240, 78%, 98%);
+    background-repeat: no-repeat;
     
 }
 h1, h2, h3, h4, h5 {
@@ -22,11 +24,17 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Main */
-
+.bg-wrapper {
+  
+  /* background-position: bottom left; */
+  background-repeat: no-repeat;
+}
 .main {
     text-align: center;
     width: 70%;
     margin: auto;
+    margin-bottom: 10%;
+   
      
 }
 
@@ -92,6 +100,9 @@ h1, h2, h3, h4, h5 {
 
 
 /* Cards */
+.card-group {
+  margin-top: 5%;
+}
 #card-center {
   color: hsl(240, 78%, 98%)!important;
   background-image: linear-gradient(to right, hsl(236, 72%, 79%),hsl(237, 63%, 64%));
@@ -111,6 +122,7 @@ h1, h2, h3, h4, h5 {
 }
 .card-body {
   color: hsl(233, 13%, 49%);
+  background-color:white; 
 }
 .card-body ul {
     list-style-type: none;
